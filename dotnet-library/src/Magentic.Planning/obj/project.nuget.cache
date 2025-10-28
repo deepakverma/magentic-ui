@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "avFEmHpEv8Je5yTKw07XoQQ9wpyN8KeJaH2cSPkY9WSxu7zJ37Jt7F7eZi8J7pbhF3bkGndFtECGEwa3cAFWZw==",
+  "success": true,
+  "projectFilePath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj",
+  "expectedPackageFiles": [
+    "/home/deepakv/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/deepakv/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/deepakv/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/home/deepakv/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

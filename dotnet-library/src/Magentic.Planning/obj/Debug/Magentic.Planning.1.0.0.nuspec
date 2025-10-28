@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Magentic.Planning</id>
+    <version>1.0.0</version>
+    <authors>Magentic</authors>
+    <description>Planning and orchestration engine for Magentic AI agents</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Magentic.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Json" version="6.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/bin/Debug/net6.0/Magentic.Planning.dll" target="lib/net6.0/Magentic.Planning.dll" />
+  </files>
+</package>

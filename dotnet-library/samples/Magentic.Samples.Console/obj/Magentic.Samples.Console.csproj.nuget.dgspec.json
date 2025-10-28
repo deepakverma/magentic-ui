@@ -1,0 +1,377 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/deepakv/magentic-ui/dotnet-library/samples/Magentic.Samples.Console/Magentic.Samples.Console.csproj": {}
+  },
+  "projects": {
+    "/home/deepakv/magentic-ui/dotnet-library/samples/Magentic.Samples.Console/Magentic.Samples.Console.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deepakv/magentic-ui/dotnet-library/samples/Magentic.Samples.Console/Magentic.Samples.Console.csproj",
+        "projectName": "Magentic.Samples.Console",
+        "projectPath": "/home/deepakv/magentic-ui/dotnet-library/samples/Magentic.Samples.Console/Magentic.Samples.Console.csproj",
+        "packagesPath": "/home/deepakv/.nuget/packages/",
+        "outputPath": "/home/deepakv/magentic-ui/dotnet-library/samples/Magentic.Samples.Console/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deepakv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj"
+              },
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj"
+              },
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Extensions.DependencyInjection/Magentic.Extensions.DependencyInjection.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Extensions.DependencyInjection/Magentic.Extensions.DependencyInjection.csproj"
+              },
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[1.0.0-beta.17, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj",
+        "projectName": "Magentic.Agents",
+        "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj",
+        "packagesPath": "/home/deepakv/.nuget/packages/",
+        "outputPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deepakv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj",
+        "projectName": "Magentic.Core",
+        "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj",
+        "packagesPath": "/home/deepakv/.nuget/packages/",
+        "outputPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deepakv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Extensions.DependencyInjection/Magentic.Extensions.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Extensions.DependencyInjection/Magentic.Extensions.DependencyInjection.csproj",
+        "projectName": "Magentic.Extensions.DependencyInjection",
+        "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Extensions.DependencyInjection/Magentic.Extensions.DependencyInjection.csproj",
+        "packagesPath": "/home/deepakv/.nuget/packages/",
+        "outputPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Extensions.DependencyInjection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deepakv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Agents/Magentic.Agents.csproj"
+              },
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj"
+              },
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj",
+        "projectName": "Magentic.Planning",
+        "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/Magentic.Planning.csproj",
+        "packagesPath": "/home/deepakv/.nuget/packages/",
+        "outputPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Planning/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deepakv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj": {
+                "projectPath": "/home/deepakv/magentic-ui/dotnet-library/src/Magentic.Core/Magentic.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
